@@ -1,0 +1,279 @@
+.app-service {
+  margin-top: 150px;
+  .title {
+    text-align: center;
+    h5 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: $text-title;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .title-desc {
+      display: flex;
+      justify-content: center;
+      p {
+        margin-top: 31px;
+        font-weight: 400;
+        font-size: 1rem;
+        max-width: 40rem;
+        color: $text-desc;
+      }
+    }
+  }
+  .image-mobile {
+    margin-top: 18px;
+    min-width: 100%;
+    img {
+      width: 100%;
+    }
+  } 
+}
+.various-app {
+  margin-top: 75px;
+  .card-icons {
+    max-width: 66px;
+    max-height: 66px;
+    padding:22px 14px;
+    background-color: $text-less;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon-app {
+      width: 28px;
+      img {
+        width: 100%;
+      }
+    }
+   
+  }
+  
+  .title {
+    margin-top: 12px;
+    text-align: left;  
+    h3 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  } 
+  .description {
+    margin-top: 12px;
+    max-width: 359px;
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $text-desc;
+      line-height: 26px;
+    }
+  }
+}
+.bg-app {
+  width: 100%;
+  margin-top: 72px;
+  img {
+    width: 100%;
+  }
+}
+
+.desc-app-service {
+  margin-top: 87px;
+  .row {
+    margin-top: 72px;
+  }
+  .icon-app {
+    max-width: 554px;
+    img {
+      width: 100%;
+    }
+  }
+  .title {
+    margin-top: 41px;
+    max-width: 394px;
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: $text-title;
+    }
+  }
+  .desc {
+    margin-top: 12px;
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $text-desc;
+    }
+  }
+  .expertise {
+    margin-top: 12px;
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $text-desc;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.latest-project {
+  margin-top: 178px;
+
+  .section-project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    // border:1px solid slateblue;
+    .title {
+      height: 100%;
+
+      h3 {
+        font-size: 16px;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 28px;
+      }
+
+      &::before {
+        content: "";
+        background-color: $text-title;
+        width: 4px;
+        position: absolute;
+        height: 24px;
+      }
+    }
+
+    .more-project {
+      display: flex;
+      border: 1px solid #D9D8DD;
+      align-items: center;
+      justify-content: space-between;
+
+      .text {
+        // border: 1px solid blue;
+        border-right: 1px solid #D9D8DD;
+        padding: 15px 45px;
+
+        h3 {
+          font-size: 15px;
+          color: $primary-color;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 10px;
+          height: 100%;
+          margin: auto;
+
+        }
+      }
+
+      .btn-more {
+        padding: 20px 25px;
+
+        i {
+          color: $primary-color;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .card-latest {
+    margin-top: 50px;
+
+    .image-latest {
+      width: 100%;
+      max-height: 489px;
+      overflow: hidden;
+      border-radius: 4px 4px 0px 0px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .card-content {
+      border: 1px solid #E5E5E5;
+      padding: 20px 40px;
+      max-height: 146px;
+      border-radius: 0px 0px 4px 4px;
+
+      .logo {
+        max-width: 102px;
+        max-height: 30px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description {
+        margin-top: 10px;
+        max-width: 283px;
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: $text-desc;
+        }
+      }
+    }
+  }
+
+}
+
+.client-said {
+  margin-top: 72px;
+  .title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    h1 {
+      font-size: 28px;
+        max-width: 1012px;
+      font-weight: 600;
+      color: $text-title;
+    }
+  }
+  .arguments-video {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .text {
+      a {
+        text-decoration: none;
+        font-size: 1rem;
+        border-bottom: 1px solid $text-title;
+        color: $text-title;
+        font-weight: 500;
+        &:hover {
+          color: $primary-color;
+          border-color: $primary-color;
+        }
+      }
+    }
+  }
+  .ic-logo {
+    // background: linear-gradient(270deg, rgba(255, 255, 255, 0) 2%, $white-color 100%);
+    margin-top: 30px;
+    .client {
+      max-width: 100px;
+      height: 58px;
+      object-fit: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

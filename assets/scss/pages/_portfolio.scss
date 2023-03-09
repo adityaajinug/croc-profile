@@ -1,0 +1,143 @@
+.portfolio {
+  margin-top: 150px;
+  .title-desc {
+    max-width: 37rem;
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    p {
+      margin-top: 3rem;
+      color: $text-desc;
+      font-size: 18px;
+    }
+  }
+  .dev-complement {
+    margin-top: 85px;
+    background: linear-gradient(93.54deg, #2A2AEC -9.98%, #1277FF 66.25%);
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    .variation {
+      position: absolute;
+      top: 0;
+      right: -90px;
+      background: rgba(255, 255, 255, 0.15);
+      filter: blur(16px);
+      border-radius: 400.4px;
+      transform: matrix(-0.53, 0.85, -0.87, -0.49, 0, 0);
+      width: 800px;
+      height: 550px;
+    }
+    .text{
+      // margin-top: 32px;
+      padding: 32px 68px;
+      h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: $white-color;
+        span {
+          font-weight: 400;
+        }
+      }
+      .package {
+        margin-top: 33px;
+        display: flex;
+        gap: 30px;
+        .count {
+          display: flex;
+          align-items: center;
+          gap:5px;
+          color: $white-color;
+          h5 {
+            font-size: 1.25rem;
+            font-weight: 700;
+          }
+          h6 {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.64);
+          }
+        }
+      }
+
+    }
+    .illustration {
+      margin-right: 100px;
+      max-width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .filter {
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    .category {
+      background-color: $text-less;
+      padding: 5px 15px;
+      color: $text-desc;
+      font-weight: 500;
+      cursor: pointer;
+      &.active {
+        background-color: $yellow-color;
+        color: $text-title;
+      }
+
+    }
+   
+  }
+  .total-projects {
+    margin-top: 46px;
+    h3 {
+      font-size: 14px;
+      color: $text-gray;
+      font-weight: 400;
+    }
+  }
+  .card-latest {
+    margin-top: 10px;
+
+    .image-latest {
+      width: 100%;
+      max-height: 489px;
+      overflow: hidden;
+      border-radius: 4px 4px 0px 0px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .card-content {
+      border: 1px solid #E5E5E5;
+      padding: 20px 40px;
+      max-height: 146px;
+      border-radius: 0px 0px 4px 4px;
+
+      .logo {
+        max-width: 102px;
+        max-height: 30px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description {
+        margin-top: 10px;
+        max-width: 283px;
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: $text-desc;
+        }
+      }
+    }
+  }
+}

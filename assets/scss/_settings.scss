@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+
+$primary-color : #1363DF;
+$secondady-color : #4992F6;
+$third-color : #000062;
+$text-title : #252525;
+$text-desc : #8F9BBA;
+$white-color : #ffff;
+$text-gray: #888888;
+$box-service: #47B5FF;
+$fourth-color: #3D8BF5;
+$text-less: #EFF2FB;
+$yellow-color: #FFDB00;
+
+
+$font : 'Inter',
+sans-serif;
+$font-secondary : 'Poppins',
+sans-serif;
+
+body {
+  background-color: $white-color;
+  font-family: $font;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+// .container {
+//   padding: 0;
+// }
+
+
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1280px !important;
+  }
+}
+// Section title 
+.section-title {
+  margin-top: 117px;
+  text-align: center;
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+
+  }
+
+  p {
+    margin-top: 26px;
+    color: $text-gray;
+  }
+}
+
+// Line 
+.line-wrapper {
+  margin-top: 100px;
+
+  .line {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}

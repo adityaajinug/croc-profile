@@ -1,0 +1,94 @@
+.contact {
+  margin-top: 100px;
+  background-image: url('../images/portfolio/bg_header.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: right bottom;
+  width: 100%;
+  height: 749px;
+  .title {
+    margin-top: 77px;
+    max-width: 341px;
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+  .description {
+    max-width: 480px;
+    margin-top: 16px;
+    p {
+    font-size: 16px;
+      line-height: 24px;
+      color: $text-desc;
+    }
+  }
+  .location {
+    margin-top: 31px;
+    z-index: 1;
+    .card-location {
+      background-color: $white-color;
+      box-shadow: 0px 4px 20px rgba(92, 104, 128, 0.1);
+      max-width: 35rem;
+      height: 140px;
+      margin-top: 20px;
+      position: relative;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding: 80px 30px;
+      gap: 30px;
+      overflow: hidden;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width:6px;
+        background-color: $yellow-color;
+        border-radius: 4px 0px 0px 4px;
+      }
+      .icon-location {
+        max-width: 26px;
+        z-index: 1;
+        img {
+          width: 100%;
+        }
+      }
+      .address {
+        z-index: 1;
+        h5 {
+          font-weight: 700;
+          color: $primary-color;
+          font-size: 24px;
+        }
+        p {
+          max-width: 227px;
+          color: $text-desc;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+      .maps {
+        
+        position: absolute;
+        max-width: 300px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        // border: 1px solid red;
+        img {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        &::before {
+          background-color: $white-color;
+        }
+      }
+    }
+
+  }
+  
+}
