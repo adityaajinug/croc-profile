@@ -34,12 +34,12 @@
       padding: 0;
 
       li {
-        padding: 10px 51px 10px 0px;
+        padding: 10px 44px 10px 0px;
         position: relative;
 
         a {
           text-decoration: none;
-          font-size: 1rem;
+          font-size: 0.875rem;
           font-weight: 500;
           color: $third-color;
           line-height: 1.5rem;
@@ -48,7 +48,7 @@
 
         .request {
           background-color: $primary-color;
-          padding: 1rem 1.313rem;
+          padding: 10px 20px;
           color: $white-color;
           border-radius: 0.25rem;
         }

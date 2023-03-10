@@ -55,4 +55,185 @@
       }
     }
   }
+  .total-count {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .count {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      .description {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      
+        h5 {
+          padding: 0;
+          margin: 0;
+          font-size: 32px;
+          color: $text-title;
+          font-weight: 600;
+            // border: 1px solid black;
+        }
+        span {
+          // margin-top: 10px;
+          font-size: 16px;
+          font-weight: 400;
+            // border: 1px solid black;
+        }
+      }
+    }
+  }
+  .banner {
+    margin-top: 100px;
+    // border: 1px solid blue;
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.client-said {
+  margin-top: 72px;
+
+  .title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-size: 28px;
+      max-width: 1012px;
+      font-weight: 600;
+      color: $text-title;
+    }
+  }
+
+  .arguments-video {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .text {
+      a {
+        text-decoration: none;
+        font-size: 1rem;
+        border-bottom: 1px solid $text-title;
+        color: $text-title;
+        font-weight: 500;
+
+        &:hover {
+          color: $primary-color;
+          border-color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .ic-logo {
+    // background: linear-gradient(270deg, rgba(255, 255, 255, 0) 2%, $white-color 100%);
+    margin-top: 30px;
+
+    .client {
+      max-width: 100px;
+      height: 58px;
+      object-fit: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.profesional-website {
+  margin-top: 100px;
+  h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: $text-title;
+  }
+  p {
+    margin-top: 12px;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+  .image-web-tech {
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.services {
+  .col-lg-6 {
+    padding: 10px;
+  }
+  margin-top: 50px;
+  .section-title {
+    margin-bottom: 40px;
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+  .card-service {
+    display: flex;
+    gap: 50px;
+    background-color: #EFF2FB;
+    border-radius: 4px;
+    padding: 40px;
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 40px;
+
+      .title-desc {
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+          color: $text-title;
+        }
+        p {
+          margin-top: 20px;
+          font-size: 14px;
+          color: $text-desc;
+          font-weight: 400;
+        }
+      }
+      .btn-more-portfolio {
+
+        .more-portfolio {
+          border: 1px solid $primary-color;
+          border-radius: 8px;
+          padding: 15px 25px;
+          background-color: #EFF2FB;
+          outline: none;
+          font-size: 14px;
+          color: $primary-color;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .img-card {
+      max-width: 270px;
+      filter: drop-shadow(12.1492px 40.4973px 32.3979px rgba(60, 109, 173, 0.15));
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
