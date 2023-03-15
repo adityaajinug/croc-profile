@@ -52,6 +52,21 @@ body {
   margin: 0;
   padding: 0;
 }
+.header .nav .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 28px;
+  top: calc(100% + 30px);
+  margin: 0;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
 .header .nav ul {
   display: flex;
   list-style: none;
@@ -79,6 +94,36 @@ body {
 }
 .header .nav ul li:last-child {
   padding-right: 0;
+}
+.header .nav .dropdown ul {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  margin: 0;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0px 0px 20px rgba(127, 137, 161, 0.45);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.header .nav .dropdown ul li {
+  min-width: 200px;
+}
+.header .nav .dropdown ul li a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+  color: #000062;
+}
+.header .nav .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
 }
 .header .mobile-nav {
   display: none;
@@ -1395,6 +1440,7 @@ body {
   background-color: #EFF2FB;
   border-radius: 4px;
   padding: 40px;
+  min-height: 300px;
 }
 .services .card-service .description {
   display: flex;
@@ -1423,8 +1469,12 @@ body {
   color: #1363DF;
   font-weight: 700;
 }
+.services .card-service .description .btn-more-portfolio .more-portfolio:hover {
+  background-color: #1363DF;
+  color: white;
+}
 .services .card-service .img-card {
-  max-width: 270px;
+  max-width: 200px !important;
   filter: drop-shadow(12.1492px 40.4973px 32.3979px rgba(60, 109, 173, 0.15));
 }
 .services .card-service .img-card img {
@@ -1689,6 +1739,20 @@ body {
   .various-app .description {
     text-align: center;
   }
+  .web-service .total-count {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .services .card-service {
+    flex-direction: column;
+  }
+  .services .card-service .description {
+    order: 1;
+    text-align: center;
+  }
+  .services .card-service .img-card {
+    order: 0;
+  }
   .desc-app-service .title {
     text-align: center;
   }
@@ -1701,22 +1765,14 @@ body {
   .footer .footer-info {
     background-image: none;
   }
-  .footer .company {
+  .footer .links {
     justify-content: start;
+    padding-bottom: 20px;
   }
-  .footer .company ul {
+  .footer .links ul {
     gap: 14px;
   }
-  .footer .company ul li a {
-    font-size: 12px;
-  }
-  .footer .services {
-    justify-content: start;
-  }
-  .footer .services ul {
-    gap: 14px;
-  }
-  .footer .services ul li a {
+  .footer .links ul li a {
     font-size: 12px;
   }
   .footer .footer-bottom {

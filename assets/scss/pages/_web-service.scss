@@ -193,6 +193,7 @@
     background-color: #EFF2FB;
     border-radius: 4px;
     padding: 40px;
+    min-height: 300px;
 
     .description {
       display: flex;
@@ -224,12 +225,16 @@
           font-size: 14px;
           color: $primary-color;
           font-weight: 700;
+          &:hover {
+            background-color: $primary-color;
+            color: $white-color;
+          }
         }
       }
     }
 
     .img-card {
-      max-width: 270px;
+      max-width: 200px !important;
       filter: drop-shadow(12.1492px 40.4973px 32.3979px rgba(60, 109, 173, 0.15));
       img {
         width: 100%;

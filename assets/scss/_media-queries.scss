@@ -194,6 +194,26 @@
       text-align: center;
     }
   }
+  .web-service {
+    .total-count {
+      // border: 1px solid red;
+      flex-direction: column;
+      gap:30px;
+      // align-items: flex-start;
+    }
+  }
+  .services {
+    .card-service {
+      flex-direction: column;
+      .description {
+        order: 1;
+        text-align: center;
+      }
+      .img-card {
+        order: 0;
+      }
+    }
+  }
   .desc-app-service {
     .title {
       text-align: center;
@@ -211,22 +231,9 @@
       background-image: none;
     }
 
-    .company {
+    .links {
       justify-content: start;
-
-      ul {
-        gap: 14px;
-
-        li {
-          a {
-            font-size: 12px;
-          }
-        }
-      }
-    }
-
-    .services {
-      justify-content: start;
+      padding-bottom: 20px;
 
       ul {
         gap: 14px;

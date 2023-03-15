@@ -16,32 +16,38 @@
 </head>
 
 <body>
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-      <div class="contain-nav">
-        <a href="#" class="logo">
-          <img src="assets/images/home/crocodic-logo.png" alt="" srcset="">
-        </a>
-        <nav class="nav" id="nav">
-          <ul>
-            <li><a href="#">Why Us?</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#" class="request">Request Quotation</a></li>
-          </ul>
-        </nav>
+<header id="header" class="header d-flex align-items-center">
+  <div class="container d-flex justify-content-between">
+    <div class="contain-nav">
+      <a href="#" class="logo">
+        <img src="assets/images/home/crocodic-logo.png" alt="" srcset="">
+      </a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#">Why Us?</a></li>
+          <li class="dropdown">
+            <a href="#">Services</a>
+            <ul>
+              <li><a href="application-services.html">Mobile Apps Development</a>
+              <li><a href="website-services.html">Website Development</a>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="form-order.html" class="request">Request Quotation</a></li>
+        </ul>
+      </nav>
 
-      </div>
-      <button class="mobile-nav" id="mobile-nav">
-        <i class="fa-solid fa-bars d-block"></i>
-        <i class="fa-solid fa-xmark d-none"></i>
-      </button>
     </div>
+    <button class="mobile-nav" id="mobile-nav">
+      <i class="fa-solid fa-bars d-block"></i>
+      <i class="fa-solid fa-xmark d-none"></i>
+    </button>
+  </div>
 
-  </header>
+</header>
 
   <section class="web-service">
     <div class="container">
@@ -226,15 +232,15 @@
           <div class="card-service">
             <div class="description">
               <div class="title-desc">
-                <h4>Company Profile</h4>
-                <p>Jasa pembuatan company profile professional dengan fitur-fitur responsif.</p>
+                <h4>Landing Page</h4>
+                <p>Landing page untuk kebutuhan pengiklanan dan interaksi langsung minim distraksi.</p>
               </div>
               <div class="btn-more-portfolio">
                 <button class="more-portfolio">More Portfolio</button>
               </div>
             </div>
             <div class="img-card">
-              <img src="assets/images/application-service/company-profile.png" alt="" srcset="">
+              <img src="assets/images/application-service/landing-page.png" alt="" srcset="">
             </div>
           </div>
 
@@ -243,15 +249,16 @@
           <div class="card-service">
             <div class="description">
               <div class="title-desc">
-                <h4>Company Profile</h4>
-                <p>Jasa pembuatan company profile professional dengan fitur-fitur responsif.</p>
+                <h4>Web E-Commerce</h4>
+                <p>Kenali profil customer kita dengan lebih baik menggunakan web
+                e-commerce bisnis.</p>
               </div>
               <div class="btn-more-portfolio">
                 <button class="more-portfolio">More Portfolio</button>
               </div>
             </div>
             <div class="img-card">
-              <img src="assets/images/application-service/company-profile.png" alt="" srcset="">
+              <img src="assets/images/application-service/ecomm.png" alt="" srcset="">
             </div>
           </div>
 
@@ -260,15 +267,15 @@
           <div class="card-service">
             <div class="description">
               <div class="title-desc">
-                <h4>Company Profile</h4>
-                <p>Jasa pembuatan company profile professional dengan fitur-fitur responsif.</p>
+                <h4>Web-Apps</h4>
+                <p>Web-apps ringan yang minim update dan ringan.</p>
               </div>
               <div class="btn-more-portfolio">
                 <button class="more-portfolio">More Portfolio</button>
               </div>
             </div>
             <div class="img-card">
-              <img src="assets/images/application-service/company-profile.png" alt="" srcset="">
+              <img src="assets/images/application-service/web-app.png" alt="" srcset="">
             </div>
           </div>
 
@@ -312,8 +319,8 @@
           <div class="location"></div>
   
         </div>
-        <div class="col-lg-2 col-6 company">
-          <div class="content-company">
+        <div class="col-lg-2 col-6 links">
+          <div class="content-links">
             <h4>Company</h4>
             <ul>
               <li><a href="#">Home</a></li>
@@ -324,8 +331,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-6 services">
-          <div class="content-service">
+        <div class="col-lg-3 col-6 links">
+          <div class="content-links">
             <h4>Services</h4>
             <ul>
               <li><a href="#">Mobile Apps Development</a></li>
